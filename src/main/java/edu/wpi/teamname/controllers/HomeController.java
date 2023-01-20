@@ -20,15 +20,15 @@ public class HomeController {
    *
    * @param event The event that triggered the method.
    */
-    @FXML
-    private void handleButtonPress(ActionEvent event) {
-      /*
-       1. Get the text the user input
-       2. Validate it against the correct information
-       3. Display to the user whether their input was correct or not
-      */
+  @FXML
+  private void handleButtonPress(ActionEvent event) {
+    /*
+     1. Get the text the user input
+     2. Validate it against the correct information
+     3. Display to the user whether their input was correct or not
+    */
 
-    }
+  }
 
   /**
    * Checks if a user's password is correct.
