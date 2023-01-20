@@ -12,7 +12,7 @@ public class HomeController {
   public void initialize() {
     System.out.println("I am from HomeController.");
 
-//    submit.setOnMouseClicked(event -> {});
+    //    submit.setOnMouseClicked(event -> {});
   }
 
   /**
@@ -21,7 +21,7 @@ public class HomeController {
    * @param event The event that triggered the method.
    */
   @FXML
-  private void handleButtonPress(ActionEvent event) {
+  private void handleButtonSubmit(ActionEvent event) {
     /*
      1. Get the text the user input
      2. Validate it against the correct information
