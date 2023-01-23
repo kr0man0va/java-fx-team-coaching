@@ -1,11 +1,18 @@
 package edu.wpi.teamname.controllers;
 
+import io.github.palexdev.materialfx.controls.MFXButton;
+import io.github.palexdev.materialfx.controls.MFXPasswordField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.text.Text;
 
 public class HomeController {
 
   final String SECRET_PASSWORD = "team coaching";
+
+  @FXML private MFXPasswordField password;
+  @FXML private Text message;
+  @FXML private MFXButton button;
 
   /** Initialize controller by FXML Loader. */
   @FXML

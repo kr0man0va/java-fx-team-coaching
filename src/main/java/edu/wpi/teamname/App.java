@@ -19,12 +19,12 @@ public class App extends Application {
 
   @Override
   public void start(Stage primaryStage) throws IOException {
-//    final URL path = App.class.getResource("views/Home.fxml");
-//    final FXMLLoader loader = new FXMLLoader(path);
-//    final BorderPane mainScene = loader.load();
-//    final Scene scene = new Scene(mainScene);
-//
-//    primaryStage.setScene(scene);
+    final URL path = App.class.getResource("views/Home.fxml");
+    final FXMLLoader loader = new FXMLLoader(path);
+    final BorderPane mainScene = loader.load();
+    final Scene scene = new Scene(mainScene);
+
+    primaryStage.setScene(scene);
     primaryStage.show();
   }
 
